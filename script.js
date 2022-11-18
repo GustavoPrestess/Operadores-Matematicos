@@ -18,6 +18,8 @@ const multi = NumberOne * NumberTwo;
 alert('A multiplação entre os dois números é: ' + multi);
 const div = NumberOne / NumberTwo;
 alert('A divisão entre os dois números é: ' + div.toFixed(2));
+const restoDivisao = NumberOne % NumberTwo;
+alert('o resto da divisão entre os dois números é: ' + restoDivisao);
 
 if (NumberOne == NumberTwo) {
   alert('Os números inseridos são iguais.')
